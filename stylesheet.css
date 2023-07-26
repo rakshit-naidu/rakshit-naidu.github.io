@@ -129,3 +129,31 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.tags {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tag-btn {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.tag-btn:hover {
+  background-color: #ddd;
+}
+
+/* Hide publications by default */
+.publication {
+  display: none;
+}
+
+/* Show publications that match the selected tag */
+.show {
+  display: block;
+}
